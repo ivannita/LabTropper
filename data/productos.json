@@ -4,7 +4,8 @@
     "nombre": "Arnés",
     "descripcion": "Arnés tejido para perros medianos y grandes",
     "precio": 15000,
-    "img": "img/arnes.jpg"
+    "img": "img/arnes.jpg",
+    "imgalt": "imagen arnes"
   },
 
   {
@@ -12,7 +13,8 @@
     "nombre": "Chapita",
     "descripcion": "Chapita identificatoria, grabado incluído",
     "precio": 5000,
-    "img": "img/chapita.jpg"
+    "img": "img/chapita.jpg",
+    "imgalt": "imagen chapita"
   },
 
   {
@@ -20,7 +22,8 @@
     "nombre": "Collar de cuero",
     "descripcion": "Collar de cuero para perros pequeños, medianos y grandes",
     "precio": 10000,
-    "img": "img/collar.jpg"
+    "img": "img/collar.jpg",
+    "imgalt": "imagen collar"
   },
 
   {
@@ -28,7 +31,8 @@
     "nombre": "Collar y correa",
     "descripcion": "Collar y correa para perros pequeños y medianos",
     "precio": 20000,
-    "img": "img/collarycorrea.jpg"
+    "img": "img/collarycorrea.jpg",
+    "imgalt": "imagen collarycorrea"
   },
 
   {
@@ -36,7 +40,8 @@
     "nombre": "Juguete armadillo",
     "descripcion": "Juguete de apego en forma de armadillo",
     "precio": 15000,
-    "img": "img/juguete1.jpg"
+    "img": "img/juguete1.jpg",
+    "imgalt": "imagen juguete1"
   },
 
   {
@@ -44,7 +49,8 @@
     "nombre": "Pretal (peq. y med.)",
     "descripcion": "Pretal para perros pequeños y medianos",
     "precio": 35000,
-    "img": "img/pretal.jpg"
+    "img": "img/pretal.jpg",
+    "imgalt": "imagen pretal"
   },
 
   {
@@ -52,7 +58,8 @@
     "nombre": "Pretal de cuero (med. y gran.)",
     "descripcion": "Pretal de cuero para perros medianos y grandes",
     "precio": 35000,
-    "img": "img/pretal2.jpg"
+    "img": "img/pretal2.jpg",
+    "imgalt": "imagen pretal2"
   },
 
   {
@@ -60,6 +67,7 @@
     "nombre": "Pretal (peq.)",
     "descripcion": "Pretal con correa para perros pequeños",
     "precio": 25000,
-    "img": "img/pretalycorrea.jpg"
+    "img": "img/pretalycorrea.jpg",
+    "imgalt": "imagen pretalycorrea"
   }
 ]
