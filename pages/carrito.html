@@ -33,15 +33,17 @@
       </nav>
     </header>
     <main>
-      <section class="pages">
-        <h1 class="titulo-pages text-dark">Carrito</h1>
-        <div class="div-pages">
-          <p class="p-carrito">No hay artículos en tu carrito</p>
+      <h1 class="titulo-pages text-dark">Carrito</h1>
+      <section id="contenedor-carrito" class="contenedor-tarjetas">
+        <!-- Productos del carrito -->
+      </section>
 
-          <button class="btn bg-primary">
-            <a href="../index.html">Ir a la tienda</a>
-          </button>
-        </div>
+      <div id="acciones-carrito" class="acciones-carrito">
+        <!-- Botones de eliminar y finalizar compra, se agregan desde JS -->
+      </div>
+
+      <section id="resumen-carrito">
+        <!-- Acá irá el resumen del carrito -->
       </section>
     </main>
 
@@ -59,6 +61,7 @@
         </ul>
       </nav>
     </footer>
+
     <script src="../js/carrito.js" type="module"></script>
   </body>
 </html>

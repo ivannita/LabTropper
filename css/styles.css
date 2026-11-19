@@ -144,6 +144,26 @@ footer p {
 .text-secondary {
   color: #fafafa;
 }
+.text-btn {
+  color: #578651;
+}
+
+.btn-eliminar-carrito {
+  background-color: #000000;
+  border: 2px solid #000000;
+  /*background-color: #96e095;*/
+  /*border: 2px solid #6ad21f;*/
+}
+
+.btn-vaciar-carrito {
+  background-color: #f7bb2b;
+  color: #1d1a20;
+  margin: 3rem;
+}
+
+.btn-carrito-carrito:hover {
+  background-color: #e0aa24;
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 /*          HOME                                                                                           */
