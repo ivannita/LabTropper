@@ -12,9 +12,9 @@ const renderizarProductos = () => {
         const tarjetaProducto = document.createElement("article");
         tarjetaProducto.classList.add("card", "text-dark");
 
-        //const img = document.createElement("img");
-        //img.src = `./${producto.img}`;
-        //img.alt = producto.imgalt;
+        const img = document.createElement("img");
+        img.src = `./${producto.img}`;
+        img.alt = producto.nombre;
 
         //Creo el título y agrego el contenido
         const tituloProducto = document.createElement("h3");
@@ -22,11 +22,11 @@ const renderizarProductos = () => {
 
         //Creo el precio y agrego el contenido
         const precioProducto = document.createElement("p");
-        precioProducto.textContent = `$$(producto.precio)`;
+        precioProducto.textContent = `$${producto.precio}`;
         precioProducto.classList.add("precio-producto");
 
         //Creo la descripción y agrego el contenido
-        const descripcionProducto = document.createElement("p");
+        const descripcionProducto = document.createElement("d");
         descripcionProducto.textContent = producto.descripcion;
 
         const boton = document.createElement("button");
